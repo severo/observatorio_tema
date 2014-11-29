@@ -1,27 +1,30 @@
 <paquet
-	prefix="integraal_theme"
+	prefix="observatorio_tema"
 	categorie="theme"
-	version="1.0.0"
+	version="0.1.0"
 	etat="dev"
 	compatibilite="[3.0.0;3.0.*]"
-	logo="integraal_theme.png"
+	logo="odr-128.png"
 >
-	<nom>IntéGraal : thème graphique</nom>
+	<nom>Tema gráfico del Observatorio del Racismo</nom>
 
-	<auteur lien="http://www.ldd.fr">Les Développements Durables</auteur>
+	<auteur lien="http://rednegra.net/cv/">Severo</auteur>
+	<credit lien="https://github.com/visionscarto/squelettes-visionscarto-net">Visions Carto</credit>
+	<credit lien="http://zone.spip.org/trac/spip-zone/browser/_squelettes_/integraal">Plugin Integraal</credit>
+
+	<licence lien="http://www.gnu.org/licenses/gpl-3.0.html">GNU/GPL v3</licence>
 	<copyright>2014</copyright>
-	<licence>GPL v3</licence>
-	
-	<necessite nom="integraal_squelettes" compatibilite="[1.0.0;]" />
+
+	<necessite nom="observatorio_esqueletos" />
 	<necessite nom="scssphp" compatibilite="[1.0.6;]" />
 	
-	<!-- Déclaration des frameworks utilisés pour ne pas avoir à changer leurs @import -->
+	<!-- Declaración de los frameworks utilizados para no tener que cambiar sus @import -->
 	<chemin path="./css/frameworks/tinytypo" type="public" />
 	<chemin path="./css/frameworks/bourbon" type="public" />
 	<chemin path="./css/frameworks/neat" type="public" />
 	<chemin path="./css/frameworks/layoutgala" type="public" />
-	<!-- Déclaration de notre dossier CSS pour ne pas avoir à préfixer "css/" dans nos @import -->
+	<!-- Declaración de la carpeta CSS para no tener que prefijar con "css/" en los @import -->
 	<chemin path="./css" type="public" />
-	<!-- Et enfin le dossier du plugin pour SPIP -->
+	<!-- Y finalmente la carpeta del plugin para SPIP -->
 	<chemin path="" />
 </paquet>
