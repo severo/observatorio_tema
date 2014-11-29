@@ -4,7 +4,7 @@
 	version="0.1.0"
 	etat="dev"
 	compatibilite="[3.0.0;3.0.*]"
-	logo="odr-128.png"
+	logo="images/odr-32.png"
 >
 	<nom>Tema gráfico del Observatorio del Racismo</nom>
 
